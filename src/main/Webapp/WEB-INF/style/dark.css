@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+body {
+	/* 	Merci Laurent :) */
+	background: linear-gradient(to right bottom, red, Tomato, Coral, yellow,
+    GreenYellow, SpringGreen, Chartreuse, DeepSkyBlue, aqua,
+     indigo, MediumPurple, DarkMagenta, DeepPink, DarkOrchid );
+	background-repeat: no-repeat; 
+	background-size : cover; 
+	background-attachment : fixed;
+	color: black;
+	font-family: "Arial";
+	width: 1200px;
+	margin: auto;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: "Arial";
+}
+
+header {
+	text-align: center;
+}
+
+label {
+	display: block;
+	width: 210px;
+	float: left;
+	font-family: "Arial";
+}
+
+img {
+	max-width: 300px;
+}
+
+input[type="text"] {
+	width: 200px;
+	font-family: "Arial";
+}
+
+input[type="submit"] {
+	width: 100px;
+	font-family: "Arial";
+}
+
+select {
+	width: 206px;
+	font-family: "Arial";
+}
+
+table {
+	border: 20px solid black;
+	border-radius: 20px;
+	padding: 50px;
+	margin: auto;
+}
+
+#pagination {
+	text-align: center
+}
+
+.erreur {
+	color: red;
+}
+
+.button {
+	background-color: black;
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+}

@@ -1,0 +1,19 @@
+2022-07-07 11:00:21.039  INFO 21448 --- [main] f.h.f.c.CalendrierGifApplicationTests    : Starting CalendrierGifApplicationTests using Java 17.0.2 on Franck-PC with PID 21448 (started by Franck in C:\Users\Franck\eclipse-workspace\calendrier_gif_v3)
+2022-07-07 11:00:21.041  INFO 21448 --- [main] f.h.f.c.CalendrierGifApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:00:21.605  INFO 21448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:00:21.664  INFO 21448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 8 JPA repository interfaces.
+2022-07-07 11:00:22.009  INFO 21448 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:00:22.043  INFO 21448 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-07-07 11:00:22.148  INFO 21448 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:00:22.249  INFO 21448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-07 11:00:22.353  INFO 21448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-07 11:00:22.361  INFO 21448 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-07 11:00:22.862  INFO 21448 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:00:22.868  INFO 21448 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:00:23.609  WARN 21448 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:00:23.887  INFO 21448 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-07 11:00:24.134  INFO 21448 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path ''
+2022-07-07 11:00:24.167  INFO 21448 --- [main] f.h.f.c.CalendrierGifApplicationTests    : Started CalendrierGifApplicationTests in 3.339 seconds (JVM running for 3.874)
+2022-07-07 11:00:24.356  INFO 21448 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:00:24.357  INFO 21448 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-07 11:00:24.363  INFO 21448 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
