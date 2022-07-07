@@ -1,74 +1,5 @@
 @charset "ISO-8859-1";
 
-body {
-	background-color: #1f282d;
-	color: white;
-	font-family: "Arial";
-	width: 1200px;
-	margin: auto;
-}
-
-a {
-	color: inherit;
-	text-transform: none;
-}
-
-header {
-	margin: 50px, 0;
-}
-
-h1, h2 {
-	color: #ef82a9;
-	font-family: "Arial";
-	text-align: center;
-}
-
-h3 {
-	text-align: center;
-}
-
-main {
-	width: 70%;
-	margin: auto;
-}
-
-label {
-	display: block;
-	width: 210px;
-	float: left;
-	font-family: "Arial";
-}
-
-img {
-	max-width: 300px;
-}
-
-input {
-	width: 100%;
-	font-family: "Arial";
-	margin-bottom: 10px;
-}
-
-input[type="submit"] {
-	width: 100px;
-}
-
-select {
-	width: 206px;
-	font-family: "Arial";
-}
-
-table {
-	border: 20px solid lightblue;
-	border-radius: 20px;
-	padding: 50px;
-	margin: auto;
-}
-
-#calendrier {
-	width: 70%;
-}
-
 .button-green {
 	background-color: green;
 	border-radius: 20px;
@@ -91,4 +22,69 @@ table {
 	margin-top: 10px;
 	text-decoration: none;
 	font-size: 14px;
+}
+
+body {
+	background-color: #1f282d;
+	color: white;
+	font-family: "Arial";
+	width: 1200px;
+	margin: auto;
+}
+
+header {
+	margin: 50px, 0;
+}
+
+main {
+	width: 70%;
+	margin: auto;
+}
+
+a {
+	color: inherit;
+	text-transform: none;
+}
+
+h1 {
+	color: #ef82a9;
+	font-family: "Arial";
+	text-align: center;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+img {
+	max-width: 300px;
+}
+
+input {
+	width: 100%;
+	font-family: "Arial";
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	width: 100px;
+}
+
+label {
+	display: block;
+	width: 210px;
+	float: left;
+	font-family: "Arial";
+}
+
+select {
+	width: 206px;
+	font-family: "Arial";
+}
+
+table {
+	border: 20px solid lightblue;
+	border-radius: 20px;
+	padding: 50px;
+	margin: auto;
 }

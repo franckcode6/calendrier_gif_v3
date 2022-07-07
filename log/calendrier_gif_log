@@ -2055,3 +2055,8 @@ javax.persistence.NonUniqueResultException: query did not return a unique result
 2022-07-07 13:12:26.584  INFO 20620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2022-07-07 13:12:26.682 ERROR 20620 --- [http-nio-8080-exec-2] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@77b57896
 2022-07-07 13:12:27.765  INFO 20620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-07-07 13:14:05.544 ERROR 20620 --- [http-nio-8080-exec-5] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@1aca195a
+2022-07-07 13:29:35.168 ERROR 20620 --- [http-nio-8080-exec-10] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@586cf255
+2022-07-07 14:08:44.226 ERROR 20620 --- [http-nio-8080-exec-4] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@39de2107
+2022-07-07 14:09:30.716 ERROR 20620 --- [http-nio-8080-exec-9] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@835b4a5
+2022-07-07 14:09:42.358 ERROR 20620 --- [http-nio-8080-exec-2] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@248abc8e
