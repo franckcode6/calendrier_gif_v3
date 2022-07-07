@@ -17,3 +17,488 @@
 2022-07-07 11:00:24.356  INFO 21448 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-07-07 11:00:24.357  INFO 21448 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-07-07 11:00:24.363  INFO 21448 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-07 11:04:17.201  INFO 13108 --- [restartedMain] f.h.f.c.CalendrierGifApplication         : Starting CalendrierGifApplication using Java 17.0.2 on Franck-PC with PID 13108 (C:\Users\Franck\eclipse-workspace\calendrier_gif_v3\target\classes started by Franck in C:\Users\Franck\eclipse-workspace\calendrier_gif_v3)
+2022-07-07 11:04:17.201  INFO 13108 --- [restartedMain] f.h.f.c.CalendrierGifApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:04:17.232  INFO 13108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-07 11:04:17.232  INFO 13108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-07 11:04:17.782  INFO 13108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:04:17.835  INFO 13108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 8 JPA repository interfaces.
+2022-07-07 11:04:18.287  INFO 13108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:04:18.294  INFO 13108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-07 11:04:18.294  INFO 13108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-07 11:04:18.471  INFO 13108 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-07 11:04:18.479  INFO 13108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:04:18.480  INFO 13108 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1247 ms
+2022-07-07 11:04:18.673  INFO 13108 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:04:18.721  INFO 13108 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-07-07 11:04:18.819  INFO 13108 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:04:18.880  INFO 13108 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-07 11:04:18.980  INFO 13108 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-07 11:04:18.989  INFO 13108 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-07 11:04:19.481  INFO 13108 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:04:19.486  INFO 13108 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:04:20.099  WARN 13108 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:04:20.220  INFO 13108 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-07 11:04:20.356  INFO 13108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-07 11:04:20.360  INFO 13108 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path ''
+2022-07-07 11:04:20.394  INFO 13108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:04:20.406  INFO 13108 --- [restartedMain] f.h.f.c.CalendrierGifApplication         : Started CalendrierGifApplication in 3.471 seconds (JVM running for 3.755)
+2022-07-07 11:04:23.298  INFO 13108 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:04:23.298  INFO 13108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:04:23.299  INFO 13108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-07 11:42:43.259 ERROR 13108 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/].[jsp]        : Servlet.service() for servlet [jsp] threw exception
+
+org.apache.jasper.JasperException: /WEB-INF/index.jsp (line: [10], column: [1]) JSP file [] not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:349) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:384) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:485) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1802) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:141) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:391) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at fr.humanbooster.fx.calendrier_gif.filter.CheckSessionFilter.doFilter(CheckSessionFilter.java:29) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.7.jar:2.6.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-07 11:42:43.261 ERROR 13108 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [/WEB-INF/index.jsp (line: [10], column: [1]) JSP file [] not found] with root cause
+
+org.apache.jasper.JasperException: /WEB-INF/index.jsp (line: [10], column: [1]) JSP file [] not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:349) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:384) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:485) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1802) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:141) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:391) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at fr.humanbooster.fx.calendrier_gif.filter.CheckSessionFilter.doFilter(CheckSessionFilter.java:29) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.7.jar:2.6.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-07 11:42:43.265 ERROR 13108 --- [http-nio-8080-exec-3] org.apache.logging.log4j.Logger          : /erreur : erreur : 500org.apache.catalina.core.ApplicationHttpRequest@16710368
+2022-07-07 11:42:46.831 ERROR 13108 --- [http-nio-8080-exec-7] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@270d868a
+2022-07-07 11:42:47.300 ERROR 13108 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[localhost].[/].[jsp]        : Servlet.service() for servlet [jsp] threw exception
+
+org.apache.jasper.JasperException: /WEB-INF/index.jsp (line: [10], column: [1]) JSP file [] not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:349) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:384) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:485) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1802) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:141) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:391) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at fr.humanbooster.fx.calendrier_gif.filter.CheckSessionFilter.doFilter(CheckSessionFilter.java:29) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.7.jar:2.6.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-07 11:42:47.301 ERROR 13108 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [/WEB-INF/index.jsp (line: [10], column: [1]) JSP file [] not found] with root cause
+
+org.apache.jasper.JasperException: /WEB-INF/index.jsp (line: [10], column: [1]) JSP file [] not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:349) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:384) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:485) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1802) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:141) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:391) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327) ~[tomcat-embed-jasper-9.0.62.jar:9.0.62]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at fr.humanbooster.fx.calendrier_gif.filter.CheckSessionFilter.doFilter(CheckSessionFilter.java:29) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.6.7.jar:2.6.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-07-07 11:42:47.302 ERROR 13108 --- [http-nio-8080-exec-8] org.apache.logging.log4j.Logger          : /erreur : erreur : 500org.apache.catalina.core.ApplicationHttpRequest@6c3d5708
+2022-07-07 11:42:47.318 ERROR 13108 --- [http-nio-8080-exec-9] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@696a358c
+2022-07-07 11:42:48.061 ERROR 13108 --- [http-nio-8080-exec-1] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@104810ed
+2022-07-07 11:42:48.741 ERROR 13108 --- [http-nio-8080-exec-3] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@15408567
+2022-07-07 11:42:49.203 ERROR 13108 --- [http-nio-8080-exec-5] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@6460314b
+2022-07-07 11:42:49.427 ERROR 13108 --- [http-nio-8080-exec-7] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@7189a493
+2022-07-07 11:57:24.128  INFO 20620 --- [restartedMain] f.h.f.c.CalendrierGifApplication         : Starting CalendrierGifApplication using Java 17.0.2 on Franck-PC with PID 20620 (C:\Users\Franck\eclipse-workspace\calendrier_gif_v3\target\classes started by Franck in C:\Users\Franck\eclipse-workspace\calendrier_gif_v3)
+2022-07-07 11:57:24.129  INFO 20620 --- [restartedMain] f.h.f.c.CalendrierGifApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-07-07 11:57:24.163  INFO 20620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-07 11:57:24.163  INFO 20620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-07 11:57:24.717  INFO 20620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-07 11:57:24.778  INFO 20620 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 8 JPA repository interfaces.
+2022-07-07 11:57:25.250  INFO 20620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-07 11:57:25.258  INFO 20620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-07 11:57:25.258  INFO 20620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-07 11:57:25.434  INFO 20620 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-07 11:57:25.443  INFO 20620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-07 11:57:25.443  INFO 20620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1280 ms
+2022-07-07 11:57:25.611  INFO 20620 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-07 11:57:25.648  INFO 20620 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-07-07 11:57:25.745  INFO 20620 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-07 11:57:25.808  INFO 20620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-07 11:57:25.893  INFO 20620 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-07 11:57:25.902  INFO 20620 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-07 11:57:26.402  INFO 20620 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-07 11:57:26.407  INFO 20620 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-07 11:57:26.997  WARN 20620 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-07 11:57:27.133  INFO 20620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-07 11:57:27.264  INFO 20620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-07 11:57:27.268  INFO 20620 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path ''
+2022-07-07 11:57:27.305  INFO 20620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-07 11:57:27.317  INFO 20620 --- [restartedMain] f.h.f.c.CalendrierGifApplication         : Started CalendrierGifApplication in 3.463 seconds (JVM running for 3.747)
+2022-07-07 11:57:31.871  INFO 20620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-07 11:57:31.872  INFO 20620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-07 11:57:31.872  INFO 20620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-07 11:57:34.145 ERROR 20620 --- [http-nio-8080-exec-6] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@64c2c610
+2022-07-07 11:57:34.602 ERROR 20620 --- [http-nio-8080-exec-8] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@7967fb6b
+2022-07-07 11:57:34.931 ERROR 20620 --- [http-nio-8080-exec-9] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@37aeddf6
+2022-07-07 11:57:35.106 ERROR 20620 --- [http-nio-8080-exec-1] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@4f937e9a
+2022-07-07 11:57:35.292 ERROR 20620 --- [http-nio-8080-exec-3] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@7b3c8f8e
+2022-07-07 11:57:35.474 ERROR 20620 --- [http-nio-8080-exec-6] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@69677a42
+2022-07-07 11:57:35.673 ERROR 20620 --- [http-nio-8080-exec-8] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@3c657a23
+2022-07-07 11:57:35.849 ERROR 20620 --- [http-nio-8080-exec-9] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@39692573
+2022-07-07 11:57:36.035 ERROR 20620 --- [http-nio-8080-exec-1] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@68cfe544
+2022-07-07 11:58:59.229 ERROR 20620 --- [http-nio-8080-exec-5] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@3a4dae50
+2022-07-07 11:59:38.923 ERROR 20620 --- [http-nio-8080-exec-9] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@3d56b686
+2022-07-07 12:00:12.629 ERROR 20620 --- [http-nio-8080-exec-1] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@4769c58e
+2022-07-07 12:00:52.164 ERROR 20620 --- [http-nio-8080-exec-3] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@be6539e
+2022-07-07 12:02:18.484 ERROR 20620 --- [http-nio-8080-exec-5] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@5a6292bd
+2022-07-07 12:03:09.756 ERROR 20620 --- [http-nio-8080-exec-10] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@6d2f327d
+2022-07-07 12:03:32.191 ERROR 20620 --- [http-nio-8080-exec-2] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@7c4d916d
+2022-07-07 12:03:33.827 ERROR 20620 --- [http-nio-8080-exec-4] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@7f7a7ffe
+2022-07-07 12:04:23.812 ERROR 20620 --- [http-nio-8080-exec-5] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@5d5ca8e
+2022-07-07 12:04:24.574 ERROR 20620 --- [http-nio-8080-exec-7] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@5f37c539
+2022-07-07 12:04:25.136 ERROR 20620 --- [http-nio-8080-exec-1] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@3130c61f
+2022-07-07 12:04:25.343 ERROR 20620 --- [http-nio-8080-exec-3] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@3b6dcf8
+2022-07-07 12:04:25.500 ERROR 20620 --- [http-nio-8080-exec-6] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@3f0c55
+2022-07-07 12:04:25.682 ERROR 20620 --- [http-nio-8080-exec-8] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@46c44626
+2022-07-07 12:04:57.223 ERROR 20620 --- [http-nio-8080-exec-9] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@1b8e048d
+2022-07-07 12:06:23.319 ERROR 20620 --- [http-nio-8080-exec-4] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@276d631e
+2022-07-07 12:06:45.761 ERROR 20620 --- [http-nio-8080-exec-10] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@47d1d0cd
+2022-07-07 12:07:04.495 ERROR 20620 --- [http-nio-8080-exec-2] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@7094b96
+2022-07-07 12:07:29.195 ERROR 20620 --- [http-nio-8080-exec-4] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@685267fd
+2022-07-07 12:08:53.331 ERROR 20620 --- [http-nio-8080-exec-8] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@7a8f76dc
+2022-07-07 12:09:09.249 ERROR 20620 --- [http-nio-8080-exec-9] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@44527152
+2022-07-07 12:09:29.491 ERROR 20620 --- [http-nio-8080-exec-1] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@6d0282cc
+2022-07-07 12:14:24.305 ERROR 20620 --- [http-nio-8080-exec-7] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@6bcd0025
+2022-07-07 12:15:02.781 ERROR 20620 --- [http-nio-8080-exec-10] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@4c93d4b3
+2022-07-07 12:15:41.846 ERROR 20620 --- [http-nio-8080-exec-2] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@13c67dc9
+2022-07-07 12:16:30.833 ERROR 20620 --- [http-nio-8080-exec-4] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@68e942f0
+2022-07-07 12:16:31.374 ERROR 20620 --- [http-nio-8080-exec-5] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@cbb566
+2022-07-07 12:16:31.585 ERROR 20620 --- [http-nio-8080-exec-7] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@23fd62bd
+2022-07-07 12:16:31.751 ERROR 20620 --- [http-nio-8080-exec-10] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@21b6cf3b
+2022-07-07 12:16:47.990 ERROR 20620 --- [http-nio-8080-exec-2] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@4d232d1b
+2022-07-07 12:18:30.246 ERROR 20620 --- [http-nio-8080-exec-7] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@4915c5c5
+2022-07-07 12:18:30.873 ERROR 20620 --- [http-nio-8080-exec-10] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@6fcf4ff2
+2022-07-07 12:18:31.268 ERROR 20620 --- [http-nio-8080-exec-2] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@57383cac
+2022-07-07 12:18:31.523 ERROR 20620 --- [http-nio-8080-exec-4] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@7946f9c7
+2022-07-07 12:18:31.724 ERROR 20620 --- [http-nio-8080-exec-5] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@23d52a1b
+2022-07-07 12:18:31.923 ERROR 20620 --- [http-nio-8080-exec-7] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@56e7189d
+2022-07-07 12:18:32.111 ERROR 20620 --- [http-nio-8080-exec-10] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@a66da55
+2022-07-07 12:18:32.286 ERROR 20620 --- [http-nio-8080-exec-2] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@445f0520
+2022-07-07 12:18:48.418 ERROR 20620 --- [http-nio-8080-exec-4] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@6d58a67c
+2022-07-07 12:18:49.965 ERROR 20620 --- [http-nio-8080-exec-5] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@1a7cce29
+2022-07-07 12:19:23.788 ERROR 20620 --- [http-nio-8080-exec-7] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@55a8e64c
+2022-07-07 12:19:34.634 ERROR 20620 --- [http-nio-8080-exec-10] org.apache.logging.log4j.Logger          : /erreur : erreur : 404org.apache.catalina.core.ApplicationHttpRequest@5882a1e6

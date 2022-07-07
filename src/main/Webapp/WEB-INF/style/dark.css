@@ -1,32 +1,28 @@
 @charset "ISO-8859-1";
 
 body {
-	/* 	Merci Laurent :) */
-	background: linear-gradient(to right bottom, red, Tomato, Coral, yellow,
-    GreenYellow, SpringGreen, Chartreuse, DeepSkyBlue, aqua,
-     indigo, MediumPurple, DarkMagenta, DeepPink, DarkOrchid );
-	background-repeat: no-repeat; 
-	background-size : cover; 
-	background-attachment : fixed;
-	color: black;
+	background-color: #1f282d;
+	color: white;
 	font-family: "Arial";
 	width: 1200px;
 	margin: auto;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
-}
-
-h1 {
-	font-family: "Arial";
+	color: #64a1bd;
 }
 
 header {
+	margin: 50px, 0;
+}
+
+h1, h2 {
+	color: #ef82a9;
+	font-family: "Arial";
+	text-align: center;
+}
+
+h3 {
 	text-align: center;
 }
 
@@ -57,14 +53,14 @@ select {
 }
 
 table {
-	border: 20px solid black;
+	border: 20px solid lightblue;
 	border-radius: 20px;
 	padding: 50px;
 	margin: auto;
 }
 
-#pagination {
-	text-align: center
+#calendrier {
+	width: 70%;
 }
 
 .erreur {
@@ -72,7 +68,7 @@ table {
 }
 
 .button {
-	background-color: black;
+	background-color: red;
 	border-radius: 20px;
 	padding: 10px 20px;
 	color: white;

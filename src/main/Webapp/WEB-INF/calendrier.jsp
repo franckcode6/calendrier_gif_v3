@@ -91,7 +91,7 @@
 				</c:forEach>
 			</tbody>
 		</table>
-		<h2 id="pagination">
+		<h3 id="pagination">
 			<c:if test="${!pageDeJours.first}">
 				<a href="calendrier?page=0&sort=${sort}">&#x23EE;</a>
 				<a href="calendrier?page=${pageDeJours.number-1}&sort=${sort}">&#x23EA;</a>
@@ -101,7 +101,7 @@
 				<a href="calendrier?page=${pageDeJours.number+1}&sort=${sort}">&#x23E9;</a>
 				<a href="calendrier?page=${pageDeJours.totalPages - 1}&sort=${sort}">&#x23ED;</a>
 			</c:if>
-		</h2>
+		</h3>
 	</main>
 </body>
 </html>
