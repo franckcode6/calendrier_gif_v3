@@ -9,7 +9,9 @@ body {
 }
 
 a {
-	color: #64a1bd;
+	color: inherit;
+	text-transform: none;
+	text-decoration: none;
 }
 
 header {
@@ -26,6 +28,11 @@ h3 {
 	text-align: center;
 }
 
+main {
+	width: 70%;
+	margin: auto;
+}
+
 label {
 	display: block;
 	width: 210px;
@@ -37,14 +44,14 @@ img {
 	max-width: 300px;
 }
 
-input[type="text"] {
-	width: 200px;
+input {
+	width: 100%;
 	font-family: "Arial";
+	margin-bottom: 10px;
 }
 
 input[type="submit"] {
 	width: 100px;
-	font-family: "Arial";
 }
 
 select {
@@ -63,11 +70,18 @@ table {
 	width: 70%;
 }
 
-.erreur {
-	color: red;
+.button-green {
+	background-color: green;
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-right: 10px;
 }
 
-.button {
+.button-red {
 	background-color: red;
 	border-radius: 20px;
 	padding: 10px 20px;

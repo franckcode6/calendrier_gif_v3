@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <title>Inscription</title>
     <style type="text/css">
-<%@include file="style/themeJ.css"%>
+<%@include file="style/dark.css"%>
 </style>
 </head>
 <body>
@@ -32,7 +32,7 @@
 		<form:options items="${theme}" itemValue="id" itemLabel="nom"/>
 	</form:select>
 	<form:errors path="theme" cssClass="erreur" /><br>
-	<form:button class="btn btn-success">Inscription</form:button>
+	<form:button class="button-green">S'inscrire</form:button>
 </form:form>
 </body>
 </html>

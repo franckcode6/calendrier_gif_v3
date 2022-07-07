@@ -15,27 +15,24 @@
 		<h1>Calendrier Gif</h1>
 	</header>
 
-<main class="container">
+<main>
 		<c:if test="${param.notification ne null}">
 			<h2>${param.notification}</h2>
 		</c:if>
 
 		<form class="mb-3" action="" method="post">
-			<div class="mb-3">
-				<label class="form-label" for="email">Email</label> <input
-					class="form-control" type="email" name="EMAIL" placeHolder="Email"
+				<label class="form-label" for="email">Email</label>
+				 <input class="form-control" type="email" name="EMAIL" placeHolder="Email"
 					required>
-			</div>
 
-			<div class="mb-3">
-				<label class="form-label" for="mot_de_passe">Mot de passe</label> <input
-					class="form-control" type="password" name="MOT_DE_PASSE"
+				<label class="form-label" for="mot_de_passe">Mot de passe</label>
+				 <input class="form-control" type="password" name="MOT_DE_PASSE"
 					placeHolder="Mot de Passe" required>
-			</div>
-			<div class="d-flex justify-content-between">
-				<input class="btn btn-success" type="submit" value="Connexion">
-				<a class="btn btn-dark" href="inscription">S'inscrire</a>
-			</div>
+					
+				<input class="button-green" type="submit" value="Connexion">
+				<a href="inscription" class="button-red" >
+				S'inscrire
+				</a>
 		</form>
 		
 		<section class="mt-5">
@@ -47,6 +44,5 @@
 		</section>
 		</main>
 
-	<jsp:include page="piedDePage.jsp"></jsp:include>
 </body>
 </html>
