@@ -28,7 +28,6 @@
 	<form:errors path="motDePasse" cssClass="erreur" /><br>
 	<form:label class="form-label" path="theme">Thème</form:label>
 	<form:select class="form-select" path="theme">
-		<form:option value="0">Merci de choisir un thème</form:option>
 		<form:options items="${theme}" itemValue="id" itemLabel="nom"/>
 	</form:select>
 	<form:errors path="theme" cssClass="erreur" /><br>

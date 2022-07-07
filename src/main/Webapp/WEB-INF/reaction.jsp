@@ -7,7 +7,7 @@
 <meta charset="ISO-8859-1">
 <title>Ajouter une réaction</title>
 <c:choose>
-	<c:when test="${sessionScope.utilisateur.theme.id eq 1}">
+	<c:when test="${sessionScope.utilisateur.theme.id eq 2}">
 		<style type="text/css">
 <%@include file="style/darksalmon.css"%>
 </style>
@@ -37,7 +37,7 @@
 				<option value="${emotion.id}">${emotion.nom}:
 					${emotion.code}</option>
 			</c:forEach>
-		</select><br> <input class="button" type="submit" value="Envoyer">
+		</select><br> <input class="button button-green" type="submit" value="Envoyer">
 	</form>
 </body>
 </html>

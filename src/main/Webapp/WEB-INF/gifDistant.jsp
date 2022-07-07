@@ -7,7 +7,7 @@
 <meta charset="ISO-8859-1">
 <title>Placer un gif distant</title>
 <c:choose>
-	<c:when test="${sessionScope.utilisateur.theme.id eq 1}">
+	<c:when test="${sessionScope.utilisateur.theme.id eq 2}">
 		<style type="text/css">
 <%@include file="style/darksalmon.css"%>
 </style>
@@ -27,7 +27,7 @@
 	<form action="" method="post">
 		<input type="text" name="URL" placeholder="URL"> <br> <input
 			type="text" name="LEGENDE" placeholder="Légende"> <br> <input
-			class="button" type="submit" value="Placer">
+			class="button button-green" type="submit" value="Placer">
 	</form>
 </body>
 </html>

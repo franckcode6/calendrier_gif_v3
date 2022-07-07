@@ -7,7 +7,7 @@
 <meta charset="ISO-8859-1">
 <title>Placer un gif televerse</title>
 <c:choose>
-	<c:when test="${sessionScope.utilisateur.theme.id eq 1}">
+	<c:when test="${sessionScope.utilisateur.theme.id eq 2}">
 		<style type="text/css">
 <%@include file="style/darksalmon.css"%>
 </style>
@@ -26,7 +26,7 @@
 	<form action="" method="post" enctype="multipart/form-data">
 		<input type="file" name="fichier" accept="image/gif" placeholder="URL">
 		<br> <input type="text" name="legende" placeholder="Légende">
-		<br> <input type="submit" class="button" value="Envoyer">
+		<br> <input type="submit" class="button button-green" value="Envoyer">
 	</form>
 </body>
 </html>

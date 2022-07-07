@@ -11,7 +11,6 @@ body {
 a {
 	color: inherit;
 	text-transform: none;
-	text-decoration: none;
 }
 
 header {
@@ -79,6 +78,7 @@ table {
 	cursor: pointer;
 	margin-top: 10px;
 	margin-right: 10px;
+	text-decoration: none;
 }
 
 .button-red {
@@ -89,4 +89,6 @@ table {
 	border: none;
 	cursor: pointer;
 	margin-top: 10px;
+	text-decoration: none;
+	font-size: 14px;
 }

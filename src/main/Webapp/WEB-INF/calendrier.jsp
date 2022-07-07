@@ -5,7 +5,7 @@
 <html>
 <head>
 <c:choose>
-	<c:when test="${sessionScope.utilisateur.theme.id eq 1}">
+	<c:when test="${sessionScope.utilisateur.theme.id eq 2}">
 <style type="text/css">
 <%@include file="style/darksalmon.css"%>
 </style>
