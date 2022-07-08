@@ -6,7 +6,7 @@
 <head>
 <c:choose>
 	<c:when test="${sessionScope.utilisateur.theme.id eq 2}">
-<style type="text/css">
+		<style type="text/css">
 <%@include file="style/darksalmon.css"%>
 </style>
 	</c:when>
@@ -17,9 +17,11 @@
 	</c:otherwise>
 </c:choose>
 <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"/>
+	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" />
 <meta charset="ISO-8859-1">
 <title>Calendrier Gif</title>
+</head>
+
 <body>
 	<header>
 		<h1>Calendrier Gif</h1>
@@ -29,6 +31,7 @@
 			${sessionScope.utilisateur.nbPoints} points <a href="deconnexion">Déconnexion</a>
 		</h2>
 	</header>
+	
 	<main>
 		<table>
 			<thead>
@@ -42,6 +45,7 @@
 					<th colspan="3">Reactions</th>
 				</tr>
 			</thead>
+			
 			<tbody>
 				<!-- Creation d'une boucle pour chaque jour dans mon tableau jours (cf CalendrierServlet)
 			On renvoie une ligne du tableau pour chaque ï¿½lï¿½ment -->
@@ -91,6 +95,7 @@
 				</c:forEach>
 			</tbody>
 		</table>
+		
 		<h3 id="pagination">
 			<c:if test="${!pageDeJours.first}">
 				<a href="calendrier?page=0&sort=${sort}">&#x23EE;</a>

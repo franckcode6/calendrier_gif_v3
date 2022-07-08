@@ -22,7 +22,7 @@
 
 <body>
 	<h1>Nouveau Gif distant</h1>
-	
+
 
 	<form action="" method="post">
 		<input type="text" name="URL" placeholder="URL"> <br> <input

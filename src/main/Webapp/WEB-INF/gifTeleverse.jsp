@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
@@ -26,7 +26,8 @@
 	<form action="" method="post" enctype="multipart/form-data">
 		<input type="file" name="fichier" accept="image/gif" placeholder="URL">
 		<br> <input type="text" name="legende" placeholder="Légende">
-		<br> <input type="submit" class="button button-green" value="Envoyer">
+		<br> <input type="submit" class="button button-green"
+			value="Envoyer">
 	</form>
 </body>
 </html>
