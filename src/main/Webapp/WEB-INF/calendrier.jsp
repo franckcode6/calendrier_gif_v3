@@ -24,6 +24,8 @@
 
 <body>
 	<header>
+	
+	
 		<h1>Calendrier Gif</h1>
 		<!-- Affichage des informations utilisateur -->
 		<h2>
